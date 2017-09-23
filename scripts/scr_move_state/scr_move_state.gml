@@ -18,8 +18,8 @@ hspd = lengthdir_x(len, dir);
 vspd = lengthdir_y(len, dir);
 
 // Move
-phy_position_x += round(hspd);
-phy_position_y += round(vspd);
+phy_position_x += (hspd);
+phy_position_y += (vspd);
 
 
 //control
