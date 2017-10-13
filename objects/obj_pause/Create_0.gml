@@ -3,7 +3,7 @@
 pauseSurf = surface_create(view_wport[0],view_hport[0])
 
 surface_set_target(pauseSurf);
-draw_clear_alpha(c_white,0)
+
 with(all) {
 	if (visible == true) {
 		x = x - view_xport[0];
