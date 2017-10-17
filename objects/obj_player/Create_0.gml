@@ -8,3 +8,4 @@ image_speed = 0
 state = scr_move_state;
 playerShader = false;
 attacked = false;
+global.pause = false;
