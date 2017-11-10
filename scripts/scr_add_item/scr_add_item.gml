@@ -15,16 +15,14 @@ newItemSprite = argument4;
 newItemScript = argument5;
 
 //Item is already in Inventory
-
-for(i = 0; i < ds_grid_height(gridToAddTo); i++) {
-	if (ds_grid_get(gridToAddTo, 1, i) == newItemName) {
+for (i = 0; i < ds_grid_height(gridToAddTo); i++) {
+	if(ds_grid_get(gridToAddTo, 0, i) == newItemName) {
 		ds_grid_set(gridToAddTo, 1, i, ds_grid_get(gridToAddTo, 1, i) + newItemAmount)
+		return true;
 	}
 }
-
 //Item is not already in Inventory
-
-if (ds_grid_get(gridToAddTo, 0, 0,) != 0) {
+if(ds_grid_get(gridToAddTo, 0 , 0) != 0) {
 	ds_grid_resize(gridToAddTo, playerInventoryWidth, ds_grid_height(gridToAddTo) + 1)
 }
 

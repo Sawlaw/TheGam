@@ -10,3 +10,4 @@ if (state != scr_enemy_stall_state) {
 	state = scr_enemy_stall_state
 	alarm [1] = room_speed;
 }
+scr_add_item(playerInventory, "Times Hurt", 1, "Ouchie", sprite1, "")
