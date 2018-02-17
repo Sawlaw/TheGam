@@ -115,25 +115,6 @@
             }
         },
         {
-            "Key": "0ae2d894-c2a3-4c5d-aa6a-f9bb4a99d13f",
-            "Value": {
-                "id": "127cdb18-499e-4566-9765-5f739b98d420",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_darkjar\/obj_darkjar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1e67b259-a7f1-4e2e-93b1-1dc613903fed",
             "Value": {
                 "id": "8ddfe0d7-beac-47b8-ae4b-719bff64436f",
@@ -150,6 +131,25 @@
                 ],
                 "resourcePath": "views\/1e67b259-a7f1-4e2e-93b1-1dc613903fed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "20ca0a1b-6832-4e8f-bbfd-a588707599bf",
+            "Value": {
+                "id": "5bf1b5fb-04f0-40fe-9737-6135690f585c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_remove_item\/scr_remove_item.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1407,6 +1407,25 @@
             }
         },
         {
+            "Key": "e82c3830-8bf1-43b1-adbb-166d32c4eb19",
+            "Value": {
+                "id": "f53ed06a-ed0c-4048-9033-42e0f1b4e8a6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_darkjar\/obj_darkjar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ea1dcad6-6061-4343-b7de-f698b1dc96b3",
             "Value": {
                 "id": "4d7bdb02-8870-4be8-8489-3cd9c0a4024f",
@@ -1646,7 +1665,8 @@
         "fdd6f848-6222-49be-8031-42a0eab450e3",
         "9bf47200-3449-4045-b714-c8a75ea35727",
         "8a40ddb2-7b6b-4174-a69b-be475dbc2a2d",
-        "6b7a77c7-df66-457a-b2e1-e4e4c321239a"
+        "6b7a77c7-df66-457a-b2e1-e4e4c321239a",
+        "20ca0a1b-6832-4e8f-bbfd-a588707599bf"
     ],
     "tutorial": ""
 }

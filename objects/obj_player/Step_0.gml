@@ -6,7 +6,7 @@ if (inv_key) {
 	if(instance_exists(obj_inventory_gui)) {
 		instance_destroy(obj_inventory_gui)
 	} else {
-		instance_create_depth(640,360,0,obj_inventory_gui)
+		instance_create_depth(650,9999,0,obj_inventory_gui)
 	}
 }
 

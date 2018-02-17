@@ -33,34 +33,55 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "7fda6637-e5f2-4476-9961-221c9184575a"
-        },
-        {
-            "id": "fb792305-c9b2-43f9-8896-eba951c628be",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c5250d72-dadd-41c5-b4ad-37aaeea5b536",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "7fda6637-e5f2-4476-9961-221c9184575a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
-    "physicsDensity": 0.5,
+    "physicsDensity": 0,
     "physicsFriction": 0.2,
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": false,
+    "physicsObject": true,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "dd5f119d-03a1-4520-a672-e59fb4a286d9",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "4effdf79-0e61-4a08-92b0-ae90348ff679",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 32,
+            "y": 0
+        },
+        {
+            "id": "9686e1d4-d53f-44b4-8f98-71b8e7c530c7",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 32,
+            "y": 32
+        },
+        {
+            "id": "28a7a9cd-652e-411a-b454-1b831f9c7e69",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 32
+        }
+    ],
     "physicsStartAwake": true,
-    "solid": false,
+    "properties": null,
+    "solid": true,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

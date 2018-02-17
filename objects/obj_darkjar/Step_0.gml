@@ -3,8 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-myItemName = "Jar";
-myItemAmount = 1;
-myItemDescrition = undefined;
-myItemSprite = spr_darkjar;
-myItemScript = undefined;
+
+depth = -phy_position_y;
