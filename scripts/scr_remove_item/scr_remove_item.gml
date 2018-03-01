@@ -14,9 +14,16 @@ newItemDescription = argument3;
 newItemSprite = argument4;
 newItemScript = argument5;
 
-//1 item in inventory
-if
-
+//Only 1 item in inventory
+if(ds_grid_height(playerInventory) == 1) {
+	if(ds_grid_get(playerInventory, 1, 0) > 1) {
+		ds_grid_set(playerInventory, 1, 0, (ds_grid_get(playerInventory, 1, 0) - 1 )) }
+	else {
+		for(i = 0;i < playerInventoryWidth; i++) {
+			ds_grid_set(playerInventory, i, 0, 0);
+		}
+	}
+}
 //everything else
 
 
