@@ -1369,25 +1369,6 @@
             }
         },
         {
-            "Key": "e3d0ac8d-f4e6-4c57-b19e-08070dbe3baa",
-            "Value": {
-                "id": "90d1336a-e339-4b63-84c4-9318e3a21d2d",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_npc_parent\/obj_npc_parent.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e3e0dd05-b7bd-4387-8ff6-55314e23b17e",
             "Value": {
                 "id": "dec197c6-cf48-4658-83cb-66d76988c32d",

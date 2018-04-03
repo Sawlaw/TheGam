@@ -24,7 +24,6 @@ if(ds_grid_height(playerInventory) == 1) {
 		}
 	}
 }
-//everything else
 
 
 
